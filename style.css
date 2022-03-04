@@ -17,6 +17,9 @@
 .square_7{
     width:calc(100% / 7);
 }
+.clicked{
+    background-color: blue;
+}
 .square_wrapper{
     margin: 13vh auto;
     width: 50vw;

@@ -36,5 +36,12 @@ button.addEventListener("click", function(){
             }
         break;
     }
+    let squares= document.getElementsByClassName("square");
+    console.log(squares);
+    for(let i=0;i<squares.length;i++){
+    console.log(squares[i]);
+    squares[i].addEventListener("click",function(){
+        this.classList.add("clicked");
+    })
+}
 })
-// 
