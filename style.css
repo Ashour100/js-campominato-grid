@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.square{
+    width:calc(100% / 10);
+    height: 50px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.square_9{
+    width:calc(100% / 9);
+}
+.square_7{
+    width:calc(100% / 7);
+}
+.square_wrapper{
+    margin: 13vh auto;
+    width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+}
