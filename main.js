@@ -41,7 +41,7 @@ button.addEventListener("click", function(){
     for(let i=0;i<squares.length;i++){
     console.log(squares[i]);
     squares[i].addEventListener("click",function(){
-        this.classList.add("clicked");
+        this.classList.toggle("clicked");
     })
 }
 })
